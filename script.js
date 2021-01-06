@@ -25,7 +25,7 @@ function appendCard(){
 
     var trashButtonDiv = document.createElement('div');
     trashButtonDiv.className = 'action-button';
-    trashButtonDiv.innerHTML = `<svg fill="#FA9500" stroke="currentcolor" stroke-width="3%" style="color: #502004;" onclick="deleteCard(${cardId})">
+    trashButtonDiv.innerHTML = `<svg fill="#ff0000" stroke="currentcolor" stroke-width="3%" style="color: #ff0000;" onclick="deleteCard(${cardId})">
     <use xlink:href="#i-trash"></use>
 </svg>`;
 
